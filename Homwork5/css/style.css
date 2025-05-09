@@ -1,0 +1,186 @@
+body{
+    background-color:whitesmoke;
+}
+.contenter{
+  display: grid;
+  grid-template-rows:repeat(0, 210px);
+  grid-template-columns: repeat(3,500px);
+  gap: 25px;
+  height: 45vh;
+    justify-content: center;
+   
+}
+
+.man{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.tem{
+      justify-content: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+      padding-left: 15px;
+  
+}
+.item1{
+   
+     grid-column: 1 ;
+color: rgb(0, 0, 0);
+}
+.item2{
+    grid-column: 2;
+    color: black;
+}
+.item3{
+    grid-column: 3 ;
+    color: black;
+}
+
+.item5{grid-column:  2;
+    color: black;
+}
+.item4{
+grid-column: 1 ;
+}
+.item6{
+    grid-column: 6 / span ;
+      color: black;
+}
+
+
+@media  screen and (min-width:78px) and  (max-width:800px){
+    .contenter{
+       grid-template-columns: var(--columns-, );
+          display: grid; 
+           justify-content: center;
+           margin: auto;
+          height: 150vh;
+          
+    }
+    .man {
+        text-align: center;
+        justify-content: center;
+       
+    }
+   .item1{
+    grid-column: 1;
+   }
+   .item2{
+    grid-column: 1;
+   }
+    .item3{
+     grid-column: 1;
+    }
+  
+   .item4{
+        grid-column: 1 ;
+    }
+     .item5{
+        grid-column: 1 ;
+    }
+     .item6{
+        grid-column: 1 ;
+    }
+  
+}  
+@media  screen and (min-width:800) and (max-width:834px)  {
+    .contenter{
+       grid-template-columns: var(--columns- );
+          display: grid;   
+          justify-content: center; 
+    }
+    .item1{
+     grid-column: 1 ;
+color: rgb(0, 0, 0);
+
+}
+.item2{
+   
+    grid-column: 2 /span 1;
+    color: black;
+}
+.item3{
+    grid-column: 1 /span;
+    color: blue;
+}
+
+.item5{grid-column:2;
+    color: blue;
+}
+.item4{
+grid-column: 1 ;
+}
+.item6{
+    grid-column: 3;
+      color: blue;
+}
+
+}
+
+@media  screen and (min-width:834px) and  (max-width:1280px){
+    .contenter{
+       grid-template-columns: var(--columns- );
+          display: grid;   
+          justify-content: center; 
+           height: 100vh;
+          
+    }
+    .item1{
+   
+     grid-column: 1 ;
+
+color: rgb(0, 0, 0);
+}
+.item2{
+    grid-column: 2;
+    color: black;
+}
+.item3{
+    grid-column: 1;
+    color: black;
+}
+
+.item5{grid-column:  1;
+    color: black;
+}
+.item4{
+grid-column: 2 ;
+}
+.item6{
+    grid-column: 2 ;
+    color: black;
+}
+    
+}
+.tex1{
+    font-size: 15px;
+}
+.tex2{
+     font-size: 15px;
+}
+.tex3{
+     font-size: 15px;
+}
+.tex4{
+     font-size: 15px;
+}
+.tex5{
+     font-size: 15px;
+}
+.tex6{
+     font-size: 15px;
+}
+.bu{
+    margin-top: 15px;
+    margin: auto;
+    background-color: rgba(0, 0, 255, 0.557);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
